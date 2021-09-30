@@ -12,7 +12,7 @@ namespace sampleprogram
 			int[] arr = new int[10];
 			int[] primee = new int[10];
 			k = 0;
-			biggest = 0;
+			big = 0;
 			Console.Write("Enter array elements:");
 			for (i = 0; i < arr.Length; i++)
 			{
