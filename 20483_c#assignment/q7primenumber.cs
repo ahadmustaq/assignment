@@ -4,8 +4,8 @@ using System.Text;
 
 namespace sampleprogram
 {
-	class prime_number
-	{
+    class q7primenumber
+    {
 		public static void Main(string[] args)
 		{
 			int i, j, p, k, big;
@@ -42,17 +42,22 @@ namespace sampleprogram
 					k++;
 					Console.WriteLine(arr[i]);
 
+
 				}
 			}
 			for (i = 0; i < primee.Length; ++i)
 			{
-				if (primee[i] > big)
+				if (primee[i] > biggest)
 				{
 					big = primee[i];
 				}
 			}
 			Console.WriteLine("big:");
-			
+			Console.WriteLine(big);
+			int position = Array.IndexOf(arr, big);
+			Console.WriteLine("position");
+			Console.WriteLine(position);
 		}
+
 	}
 }
