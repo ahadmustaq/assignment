@@ -55,7 +55,7 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            EmployeeSalary emp = new EmployeeSalary("Chirag", 20792, 6000, 1000, 500);
+            EmployeeSalary emp = new EmployeeSalary("Ahad", 20000, 6500, 1000, 500);
 
             Console.WriteLine("Hello" + emp.getName() + ".\n Emp ID:" + emp.getEmpid() + ".\n Basic salary:" + emp.getBasic() + ".\n HR Allowance:" + emp.getHr() + ".\n Travel Allowance:" + emp.getTrvl()++,".\n Tax:" + emp.tax() + ".\n Gross" + emp.gross());
         }
